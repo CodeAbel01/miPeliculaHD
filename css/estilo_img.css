@@ -12,10 +12,10 @@
     }
     ul{
         list-style:none;
-        }
+    }
     
 
-
+/*Large Desktop*/
 @media (min-width:1200px){
 
     .galeria__item{
@@ -80,9 +80,157 @@
         -webkit-transition-duration: 100ms;
         -moz-transform: scale(1.12,1.12);
         -moz-transition-timing-function: ease-out;
-        -moz-transition-duration: 1000ms;
+        -moz-transition-duration: 1000ms;        
+    }
+    footer{
+        background:black;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
+    }
+}
 
+/*Medium Desktop*/
+@media (max-width: 1199px) and (min-width: 1023px){
+
+    .galeria__item{
+        width: 24%;
+        /*cursor: pointer;*/
+        margin: 5px;
+    }
+    p{
+        padding-top: 1px;
+        font-size: 18px;
+        background: rgb(245, 168, 2);
+        height: 27px;
+    }
+
+    /*ESTILOS FACEBOOK*/
+    .chat-container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        z-index: 999;
         
+    }
+    .chat-button{
+        width: 100%;
+        margin: 0;
+        cursor: pointer;
+        user-select: none;
+        padding: 4px 0;
+        background-color: #337AB7;
+        text-align: center;
+        color: #fff;
+    }
+    .chat-content{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(253, 253, 253);
+        display: none;
+    }
+    .chat-messenger{
+        display: none;
+    }
+
+
+    /*ZOOM DE IMAGENES*/
+    .galeria__img{
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+        
+    }
+    .galeria__img:hover{
+        -webkit-transform: scale(1.12,1.12);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 100ms;
+        -moz-transform: scale(1.12,1.12);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 1000ms;        
+    }
+    footer{
+        background:black;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
+    }
+}
+
+/*Tablets*/
+@media (max-width: 1024px) and (min-width: 768px){
+    
+    .galeria__item{
+        width: 24%;
+        /*cursor: pointer;*/
+        margin: 5px;
+    }
+    p{
+        padding-top: 1px;
+        font-size: 18px;
+        background: rgb(245, 168, 2);
+        height: 27px;
+    }
+
+    /*ESTILOS FACEBOOK*/
+    .chat-container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        z-index: 999;
+        
+    }
+    .chat-button{
+        width: 100%;
+        margin: 0;
+        cursor: pointer;
+        user-select: none;
+        padding: 4px 0;
+        background-color: #337AB7;
+        text-align: center;
+        color: #fff;
+    }
+    .chat-content{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(253, 253, 253);
+        display: none;
+    }
+    .chat-messenger{
+        display: none;
+    }
+
+
+    /*ZOOM DE IMAGENES*/
+    .galeria__img{
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 250ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 250ms;
+        
+    }
+    .galeria__img:hover{
+        -webkit-transform: scale(1.12,1.12);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 100ms;
+        -moz-transform: scale(1.12,1.12);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 1000ms;        
     }
     footer{
         background:black;
@@ -93,9 +241,7 @@
 }
 
 
-
-
-/*CONFIGURACIÓN PARA MOVIL*/
+/*iPhone*/
 @media (max-width: 767px){
     .galeria__item{
         width: 30%;
