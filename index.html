@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/android.png">
+    <title>Películas</title>
+    <meta name="viewport" content= "width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimyn-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo_img.css">
+</head>
+<body style="background:rgb(41, 41, 41)">
+    <!--modal-->
+    
+
+    <!--CONTENEDOR DE ENCABEZADO-->
+    <header style="background:rgb(34, 34, 34);color:white; display: flex;justify-content: center">
+        <h3>
+            Películas Full-HD
+        </h3>
+    </header>
+
+   <!--CONTENEDOR DE LOS SLIDE-->
+    <div class="container-fluid">        
+        <div class="col-md-12">
+            <div id="carousel-1" class="carousel slide" data-ride="carousel">               
+                 <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="slider/BatmanSuperman.jpg" class="img-responsive">
+                            <div class="carousel-caption hidden-xs hidden-sm"></div>
+                        </div>
+
+                        <div class="item">
+                            <img src="slider/Inframundo5.jpg" class="img-responsive">
+                            <div class="carousel-caption hidden-xs hidden-sm"></div>
+                        </div>
+                        <div class="item">
+                            <img src="slider/Ninja.jpg" class="img-responsive">
+                            <div class="carousel-caption hidden-xs hidden-sm"></div>
+                        </div>
+                        <div class="item">
+                            <img src="slider/ResidentEvil.jpg" class="img-responsive">
+                            <div class="carousel-caption hidden-xs hidden-sm"></div>
+                        </div>
+                      
+                    </div>
+                 <!--CONTROLES(Flechas) -->
+                 <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev"></a>
+                 <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next"></a>                
+            </div>
+        </div>
+    </div>
+
+    <!--CONTENEDOR DE PELICULAS-->
+    <div class="container-fluid" id="contenedorPeli">
+        <!--PELICULAS DESTACADAS-->
+        <div class="row" style="padding-bottom:20px; margin-bottom:15px; background:white">
+            <h3  class="text-center">PELÍCULAS DESTACADAS</h3>
+            <div class="col-md-10 col-md-offset-1 ">
+                <img src="imgDestacado/destacado1.jpg" id="fotocambia" class="img-responsive">  
+            </div>
+            
+        </div>
+    </div>
+            
+    <!--GALERÍA DE IMAGENES-->
+    <ul class="galeria">
+        <!-- Agredaos recientes-->          
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Ninja1.jpg" class="galeria__img">
+            <p class="text-center">Ninja 1</p>               
+        </li>  
+        <li class="galeria__item"> <img src="imgPeliculas/accion/venom.jpg" class="galeria__img">  
+            <p class="text-center">Venom</p>             
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/predador2018.jpg"class="galeria__img" >
+            <p class="text-center">Predador 2018</p>               
+        </li>                
+        <li class="galeria__item"> <img src="imgPeliculas/accion/ElTiempo.jpg" class="galeria__img">
+            <p class="text-center">El Tiempo</p>         
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/terror/laMonja.jpg"class="galeria__img" >
+            <p class="text-center">La Monja</p>               
+        </li>
+
+        <!--FILA 1 DE PELICULAS-->        
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/malefica.jpeg"class="galeria__img" >
+            <p class="text-center">Maléfica</p>               
+        </li>       
+        <li class="galeria__item"> <img src="imgPeliculas/accion/SkeletonMan.jpg"class="galeria__img" >
+            <p class="text-center">Skeleton Man</p>               
+        </li>        
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Predator3.jpg" class="galeria__img">  
+            <p class="text-center">Predador 3</p>             
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/ElVengadorFantasma2.jpg"class="galeria__img" >
+            <p class="text-center">El Vengador Fantasma 2</p>               
+        </li>
+        
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/lasaventurasdelcapitancalsonsillos.jpg"class="galeria__img" >
+            <p class="text-center">nombre</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/LLUVIA_DE_HAMBURGUESAS.jpg"class="galeria__img" >
+            <p class="text-center">Lluvia de hanburgesa 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/lluviadehanburgesa2.jpg"class="galeria__img" >
+            <p class="text-center">Lluvia de hanburgesa 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/madagascar2.jpg"class="galeria__img" >
+            <p class="text-center">Madagascar 2</p>               
+        </li>
+        
+        <!--FILA 2 DE PELICULAS-->                
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/ralphWifi.jpg"class="galeria__img" >
+            <p class="text-center">Ralph Wifi</p>               
+        </li> 
+        <li class="galeria__item"> <img src="imgPeliculas/accion/LosMensajeros2.jpg"class="galeria__img" >
+            <p class="text-center">Los Mensajeros 2</p>              
+        </li>  
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Mujer_Maravilla.jpg"class="galeria__img">
+            <p class="text-center">Mujer Maravilla</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Arania2.jpg" class="galeria__img">
+            <p class="text-center">Hombre araña 2</p>         
+        </li>
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/toystory.jpg"class="galeria__img" >
+            <p class="text-center">Toy Story</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Turbo.jpg"class="galeria__img" >
+            <p class="text-center">Turbo</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/ungrandinosaurio.jpg"class="galeria__img" >
+            <p class="text-center">Un gran Dinosaurio</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/WALL_E.jpg"class="galeria__img" >
+            <p class="text-center">WALL E</p>               
+        </li>
+        
+        <!--FILA 2 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Alien_Predator2.jpg" class="galeria__img">  
+            <p class="text-center">Alien Vrs Predator 2</p>             
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/ElVengadorFantasma.jpg"class="galeria__img" >
+            <p class="text-center">Vengador Fantasma 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/LinternaVerde.jpg" class="galeria__img">
+            <p class="text-center">Linterna Verde</p>        
+        </li>
+        
+
+        <!--FILA 3 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Predator1.jpg" class="galeria__img">  
+            <p class="text-center">Predador 1</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Cars3.jpg"class="galeria__img">
+            <p class="text-center">Cars 3</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Heroes.jpg"class="galeria__img" >
+            <p class="text-center">Big Hero 6</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/PiratasdeSiliconvalley.jpg"class="galeria__img" >
+            <p class="text-center">Piratas de Silicon Valley</p>                
+        </li>
+
+        <!--FILA 4 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/AprendizBrujo.jpg"class="galeria__img">
+            <p class="text-center">Aprendíz del brujo</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Predator2.jpg"class="galeria__img" >
+            <p class="text-center">Predador 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Ant_man.jpg"class="galeria__img" >
+            <p class="text-center">Ant Man 1</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/capitanAmerica1.jpg"class="galeria__img" >
+            <p class="text-center">Capitán América 1</p>                
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/rio.jpg"class="galeria__img" >
+            <p class="text-center">Rio 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/rio2.jpg"class="galeria__img" >
+            <p class="text-center">Rio 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/sahara.jpg"class="galeria__img" >
+            <p class="text-center">Sahara</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/shrek.jpg"class="galeria__img" >
+            <p class="text-center">Shrek</p>               
+        </li> 
+
+        <!--FILA 6 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cristiano/apruebadefuego.jpg"class="galeria__img">
+            <p class="text-center">Iron Man 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cristiano/DIOSNOESTaMUERTO1.jpg"class="galeria__img" >
+            <p class="text-center">Iron Man 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cristiano/DIOSNOESTÁMUERTO.jpg"class="galeria__img" >
+            <p class="text-center">Iron man 3</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cristiano/Meenamoredeunachicacristiana.jpg"class="galeria__img" >
+            <p class="text-center">La teoría del todo</p>               
+        </li>
+
+        <!--FILA 5 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/capitanAmerica2.jpg"class="galeria__img">
+            <p class="text-center">Capitán América 2</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/DespuesdelaTierra.jpg"class="galeria__img" >
+            <p class="text-center">Después de la Tierra</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ElincreibleHulk.jpg"class="galeria__img" >
+            <p class="text-center">El increíble Hulk</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/GIGANTESDEACERO.jpg"class="galeria__img" >
+            <p class="text-center">Gigante de acero</p>                
+        </li>        
+
+        <!--FILA 7 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/LosBecarios.jpg"class="galeria__img">
+            <p class="text-center">Los Becarios</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/LosVengadores1.jpg"class="galeria__img" >
+            <p class="text-center">Los vengadores 1</p>                
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/LosVengadores2.jpg"class="galeria__img" >
+            <p class="text-center">Los vengadores 2</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Lucy.jpg"class="galeria__img" >
+            <p class="text-center">Lucy</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/mivillanofavorito1.jpg"class="galeria__img" >
+            <p class="text-center">Mi villano favorito 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/mivillanofavorito2.jpg"class="galeria__img" >
+            <p class="text-center">Mi villano favorito 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/narni2.jpg"class="galeria__img" >
+            <p class="text-center">Las Crónicas de Narnia 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/narni3.jpg"class="galeria__img" >
+            <p class="text-center">Las Crónicas de Narnia 3</p>               
+        </li>
+
+        <!--FILA 8 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/PowerRangers.jpg"class="galeria__img">
+            <p class="text-center">Power Rangers</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ResidentEvil1.jpg"class="galeria__img" >
+            <p class="text-center">Residen tEvil 1</p>               
+        </li>
+        <li class="galeria__item">  <img src="imgPeliculas/cienciaFiccion/ResidentEvil2.jpg"class="galeria__img" >
+            <p class="text-center">Resident Evil 2</p>         
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ResidentEvil3.jpg"class="galeria__img" >
+            <p class="text-center">ResidentEvil3</p>               
+        </li>
+
+        
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/madagascar3.jpg"class="galeria__img" >
+            <p class="text-center">Madagascar 3</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/AlienPredator1Poster1.jpg" class="galeria__img">  
+            <p class="text-center">Alien Vrs Predador 1</p>   
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/misperegirnos.jpg"class="galeria__img" >
+            <p class="text-center">Mis peregirnos</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura//mivillanofavorito3.jpg"class="galeria__img" >
+            <p class="text-center">Mi villano favorito 3</p>               
+        </li>    
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers5.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 5</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers44.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 4</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers3.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 3</p>         
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen7.jpg"class="galeria__img" >
+            <p class="text-center">XMen 7</p>         
+        </li>
+
+        <!--FILA 9 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ResidentEvil5.jpg"class="galeria__img" >
+            <p class="text-center">Residen tEvil 5</p>                
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ResidentEvil6.jpg"class="galeria__img" >
+            <p class="text-center">Resident Evil 6</p>               
+        </li>
+        <li class="galeria__item">  <img src="imgPeliculas/cienciaFiccion/Robocop2.jpg"class="galeria__img" >
+            <p class="text-center">Robocop</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/spiderman1.jpg"class="galeria__img">
+            <p class="text-center">Spiderman - 1</p>              
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/comoentrenaratudragon2.jpg"class="galeria__img" >
+            <p class="text-center">Como entrenar a tu dragon 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/comoperrosygatos.jpg"class="galeria__img" >
+            <p class="text-center">Como perros y gatos</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/comoperrosygatos2.jpg"class="galeria__img" >
+            <p class="text-center">Como perros y gatos 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/croods_b.jpg"class="galeria__img" >
+            <p class="text-center">Croods</p>               
+        </li>
+
+        <!--FILA 10 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/spiderman2017.jpg"class="galeria__img" >
+            <p class="text-center">Spider - Man 2017</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/SpiderMan3.jpg"class="galeria__img" >
+            <p class="text-center">Spider - Man 3</p>               
+        </li>
+        <li class="galeria__item">  <img src="imgPeliculas/cienciaFiccion/spidermanv1.jpg"class="galeria__img" >
+            <p class="text-center">Spider - Man v.1</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/spidermanv2.jpg"class="galeria__img">
+            <p class="text-center">Spiderman - v2</p>             
+        </li>
+
+        <!--FILA 11 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/SteveJobs.jpg"class="galeria__img" >
+            <p class="text-center">Steve Jobs</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/TerminatorGenesis.jpg"class="galeria__img" >
+            <p class="text-center">Terminator Genesis</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/TerminatorSalvacion.jpg"class="galeria__img" >
+            <p class="text-center">Terminator Salvación</p>         
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen8.jpg"class="galeria__img" >
+            <p class="text-center">XMen 8</p>         
+        </li>                
+
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers4.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 4</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers2.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 2</p>              
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Transformers1.jpg"class="galeria__img" >
+            <p class="text-center">Transformers 1</p>         
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen6.jpg"class="galeria__img" >
+            <p class="text-center">XMen 6 </p>         
+        </li>
+        
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/aviones.jpg"class="galeria__img" >
+            <p class="text-center">Aviones</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/chapulin.jpg"class="galeria__img" >
+            <p class="text-center">Chapulin Animado</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Chavo.jpg"class="galeria__img" >
+            <p class="text-center">Chavo Animado</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/comoentrenaratudragon.jpg"class="galeria__img" >
+            <p class="text-center">Como entrenar a tu dragon</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/TitanesdelPacifico1.jpg"class="galeria__img" >
+            <p class="text-center">Titanes del Pacifico 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen5.jpg"class="galeria__img" >
+            <p class="text-center">XMen 5</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen4.jpg"class="galeria__img" >
+            <p class="text-center">XMen 4</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen3.jpg"class="galeria__img" >
+            <p class="text-center">XMen 3</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen2.jpg"class="galeria__img" >
+            <p class="text-center">XMen 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/XMen1.jpg"class="galeria__img" >
+            <p class="text-center">XMen 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/TortujasNinjas2.jpg"class="galeria__img" >
+            <p class="text-center">Tortujas Ninjas 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/TortujasNinjas1.jpg"class="galeria__img" >
+            <p class="text-center">Tortujas Ninjas 1</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/hachiko.jpeg"class="galeria__img" >
+            <p class="text-center">Hachiko</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/kung_fu_panda_2.jpg"class="galeria__img" >
+            <p class="text-center">Kungfú panda 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Kungfupanda.jpg"class="galeria__img" >
+            <p class="text-center">Kungfú panda 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/kungfupanda3.jpg"class="galeria__img" >
+            <p class="text-center">Kungfú panda 3</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Thor2.jpg"class="galeria__img" >
+            <p class="text-center">Thor 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/thor1.jpg"class="galeria__img" >
+            <p class="text-center">Thor 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/superGirl.jpg"class="galeria__img" >
+            <p class="text-center">Super Girl</p>               
+        </li>        
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Avispon.jpg"class="galeria__img" >
+            <p class="text-center">Avispón Verde</p> 
+        </li>
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Narnia.jpg"class="galeria__img" >
+            <p class="text-center">Las Crónicas de Narnia 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/openseason.jpg"class="galeria__img" >
+            <p class="text-center">Open Season 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/openseason2.jpg"class="galeria__img" >
+            <p class="text-center">Open Season 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/openseason3.jpg"class="galeria__img" >
+            <p class="text-center">Open Season 3</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/accion/romeYjulieta.jpg"class="galeria__img" >
+            <p class="text-center">Rome y Julieta</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Logan.jpg"class="galeria__img" >
+            <p class="text-center">Logan</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/kong.jpg"class="galeria__img" >
+            <p class="text-center">Kong</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/gotzila.jpg"class="galeria__img" >
+            <p class="text-center">Gotzila</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Emojis.jpg" class="galeria__img">  
+            <p class="text-center">Emojis</p>          
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/elcuervo1.jpg"class="galeria__img" >
+            <p class="text-center">El Cuervo 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/accion/Dioses_De_Egipto.jpg"class="galeria__img" >
+            <p class="text-center">Dioses De Egipto</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Alvin1.jpg"class="galeria__img" >
+            <p class="text-center">Alvin y las ardillas 1</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Alvin2.jpg"class="galeria__img" >
+            <p class="text-center">Alvin y las ardillas 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Alvin3.jpg"class="galeria__img" >
+            <p class="text-center">Alvin y las ardillas 3</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Alvin4.jpg"class="galeria__img" >
+            <p class="text-center">Alvin y las ardillas 4</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Angrybris.jpg"class="galeria__img" >
+            <p class="text-center">Angry birds</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/elarigendelosguardianes.jpg"class="galeria__img" >
+            <p class="text-center">Orígen de los guardianes</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/elfo.jpg"class="galeria__img" >
+            <p class="text-center">Elfo</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/Elreinosecreto.jpg"class="galeria__img" >
+            <p class="text-center">El reino secreto</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/elsecretodelacalavasamagica.jpg"class="galeria__img" >
+            <p class="text-center">La calavasa mágica</p>               
+        </li>
+
+        <!--SIGUIENTE FILA-->
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/laheradehielo3.jpg"class="galeria__img" >
+            <p class="text-center">La hera de hielo 3</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/laheradehielo2.jpg"class="galeria__img" >
+            <p class="text-center">La hera de hielo 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/laheradehielo1.jpg"class="galeria__img" >
+            <p class="text-center">La hera de hielo 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/caricatura/laheradehielo4.jpg"class="galeria__img" >
+            <p class="text-center">La hera de hielo 4</p>               
+        </li>                    
+
+        <!--FILA 6 DE PELICULAS-->
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/IronMan1.jpeg"class="galeria__img">
+            <p class="text-center">Iron Man 1</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/IronMan2.jpg"class="galeria__img" >
+            <p class="text-center">Iron Man 2</p>               
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/ironman3.jpg"class="galeria__img" >
+            <p class="text-center">Iron man 3</p>        
+        </li>
+        <li class="galeria__item"> <img src="imgPeliculas/cienciaFiccion/Lateoriadeltodo.jpg"class="galeria__img" >
+            <p class="text-center">La teoría del todo</p>               
+        </li>
+
+        
+        
+
+    </ul>
+
+    <!--SECCION CHAT DE FACEBOOK-->
+    <section class="chat-container">
+        <div class="chat-button">Chat de Facebook</div>
+        
+        <div class="chat-content">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finternet.peliculas.hd%2F&tabs=messages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            
+        </div>
+    </section>
+
+    <img class="chat-messenger" style="cursor:pointer; height:50px;width:50px" src="img/messenger2.png">
+    
+    
+    <footer>
+
+        <h4>&copy; Peliculas HD  V1.0</h4>
+        <h5><i> Febrero 2019 -- "Utilice el chat para preguntar por su pelicula favorita" </i></h5>
+             
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/modal_movil.js"></script>
+    <script src="js/chatFace.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/main.js"></script>
+    <script src="js/imgDestacado.js"></script>
+</body>
+</html>
