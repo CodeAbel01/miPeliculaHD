@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo_img.css">
 </head>
-<body style="background:rgb(41, 41, 41)">
-    <!--modal-->
-    
+<body style="background:rgb(41, 41, 41)">    
 
     <!--CONTENEDOR DE ENCABEZADO-->
     <header style="background:rgb(34, 34, 34);color:white; display: flex;justify-content: center">
@@ -21,6 +19,13 @@
             Películas Full-HD
         </h3>
     </header>
+
+    <!--SELECCIÓN DE CATEGORÍA-->
+    <div class="filaCategoria">
+        <div id="inicio" onclick="principal()">Inicio</div>
+        <div id="ninios" onclick="infantiles()">Infantiles</div>
+        <div id="terror" onclick="terror()">Terror</div>
+    </div>
 
    <!--CONTENEDOR DE LOS SLIDE-->
     <div class="container-fluid">        
@@ -557,6 +562,7 @@
     </footer>
 
     <script src="js/jquery.js"></script>
+    <script src="js/categorias.js"></script>
     <script src="js/modal_movil.js"></script>
     <script src="js/chatFace.js"></script>
     <script src="js/bootstrap.min.js" ></script>

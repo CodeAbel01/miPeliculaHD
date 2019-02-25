@@ -13,6 +13,47 @@
     ul{
         list-style:none;
     }
+
+    /*CATEGORÍAS DE PELICUALS*/
+    .filaCategoria{
+        height: 50px;
+        background: #0085C9;
+        width: 100%;
+    }
+    #inicio{
+        padding-top: 5px;
+        font-size: 20px;
+        height: 50px;
+        background: #015865;
+        width: 30%;
+        float: left;
+        color: white;
+        text-align: center;
+        cursor: pointer;        
+        border-bottom: 5px solid rgb(245, 168, 2);
+    }
+    #ninios{
+        padding-top: 5px;
+        font-size: 20px;
+        height: 50px;
+        background: #015865;
+        width: 40%;
+        float: left;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    #terror{
+        padding-top: 5px;
+        font-size: 20px;
+        height: 50px;
+        background: #015865;
+        width: 30%;
+        float: left;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
     
 
 /*Large Desktop*/
