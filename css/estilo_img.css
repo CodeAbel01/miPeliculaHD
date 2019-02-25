@@ -14,6 +14,7 @@
         list-style:none;
     }
 
+
     /*CATEGORÍAS DE PELICUALS*/
     .filaCategoria{
         height: 50px;
@@ -58,6 +59,18 @@
 
 /*Large Desktop*/
 @media (min-width:1200px){
+    #titulo{
+        text-align: center;
+    }
+    /*BUSCADOR*/
+    #buscador{
+        margin: 0;
+        padding: 0;                      
+        position: absolute; /*fixed para que quede encima en todo momento al deslizar*/
+        top: 10px;
+        right: 15px;
+        z-index: 999; /*coloca encima de todo*/
+    }
 
     .galeria__item{
         width: 24%;
@@ -284,11 +297,26 @@
 
 /*iPhone*/
 @media (max-width: 767px){
+    #titulo{
+        text-align: left;
+        margin-left: 15px;
+    }
+    /*BUSCADOR*/
+    #buscador{
+        margin: 0;
+        padding: 0;                      
+        position: absolute; /*fixed para que quede encima en todo momento al deslizar*/
+        top: 10px;
+        right: 15px;
+        z-index: 999; /*coloca encima de todo*/
+    }
+    
     .galeria__item{
         width: 30%;
         cursor: pointer;
         margin: 3px;        
     }
+
     p{
         padding-top: 1px;
         font-size: 8px;
