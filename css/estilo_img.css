@@ -59,7 +59,12 @@
 
 /*Large Desktop*/
 @media (min-width:1200px){
+    header{
+        justify-content:center;
+    }
     #titulo{
+        
+        
         text-align: center;
     }
     /*BUSCADOR*/
@@ -297,7 +302,12 @@
 
 /*iPhone*/
 @media (max-width: 767px){
+    header{
+        justify-content:left;
+    }
     #titulo{
+        font-weight: bold;
+        font-size: 16px;
         text-align: left;
         margin-left: 15px;
     }
