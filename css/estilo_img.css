@@ -56,6 +56,9 @@
         cursor: pointer;
     }
     
+    .peliculasPrincipales{
+        display: show;
+    }
 
 /*Large Desktop*/
 @media (min-width:1200px){
@@ -141,17 +144,35 @@
         -moz-transition-timing-function: ease-out;
         -moz-transition-duration: 1000ms;        
     }
-    footer{
+    footer{ 
         background:black;
         color: white;
         padding: 5px;
-        padding-left: 15px;
+        padding-left: 15px;     
+       
     }
 }
 
 /*Medium Desktop*/
 @media (max-width: 1199px) and (min-width: 1023px){
-
+    header{
+        justify-content:center;
+    }
+    #titulo{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    /*BUSCADOR*/
+    #buscador{
+        margin: 0;
+        padding: 0;                      
+        position: absolute; /*fixed para que quede encima en todo momento al deslizar*/
+        top: 10px;
+        right: 15px;
+        z-index: 999; /*coloca encima de todo*/
+    }
     .galeria__item{
         width: 24%;
         /*cursor: pointer;*/
@@ -226,7 +247,24 @@
 
 /*Tablets*/
 @media (max-width: 1024px) and (min-width: 768px){
-    
+    header{
+        justify-content:left;
+    }
+    #titulo{
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    /*BUSCADOR*/
+    #buscador{
+        margin: 0;
+        padding: 0;                      
+        position: absolute; /*fixed para que quede encima en todo momento al deslizar*/
+        top: 10px;
+        right: 15px;
+        z-index: 999; /*coloca encima de todo*/
+    }
     .galeria__item{
         width: 24%;
         /*cursor: pointer;*/
